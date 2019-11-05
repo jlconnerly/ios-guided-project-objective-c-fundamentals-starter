@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32CE6C412371E4A000343995 /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CE6C402371E4A000343995 /* LSIPerson.m */; };
+		32CE6C442371F28900343995 /* LSIPersonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32CE6C432371F28900343995 /* LSIPersonController.m */; };
 		BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA4DE2371D53400E8D4EF /* AppDelegate.m */; };
 		BD9AA4E22371D53400E8D4EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA4E12371D53400E8D4EF /* SceneDelegate.m */; };
 		BD9AA4EA2371D53500E8D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA4E92371D53500E8D4EF /* Assets.xcassets */; };
@@ -32,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32CE6C3F2371E4A000343995 /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		32CE6C402371E4A000343995 /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
+		32CE6C422371F28900343995 /* LSIPersonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPersonController.h; sourceTree = "<group>"; };
+		32CE6C432371F28900343995 /* LSIPersonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPersonController.m; sourceTree = "<group>"; };
 		BD9AA4DA2371D53400E8D4EF /* StarWarsSearch-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWarsSearch-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AA4DD2371D53400E8D4EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD9AA4DE2371D53400E8D4EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				BD9AA4EB2371D53500E8D4EF /* LaunchScreen.storyboard */,
 				BD9AA4EE2371D53500E8D4EF /* Info.plist */,
 				BD9AA4EF2371D53500E8D4EF /* main.m */,
+				32CE6C3F2371E4A000343995 /* LSIPerson.h */,
+				32CE6C402371E4A000343995 /* LSIPerson.m */,
+				32CE6C422371F28900343995 /* LSIPersonController.h */,
+				32CE6C432371F28900343995 /* LSIPersonController.m */,
 			);
 			path = "StarWarsSearch-Objc";
 			sourceTree = "<group>";
@@ -237,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */,
+				32CE6C412371E4A000343995 /* LSIPerson.m in Sources */,
+				32CE6C442371F28900343995 /* LSIPersonController.m in Sources */,
 				BD9AA5082371D58300E8D4EF /* LSIPersonSearchTableViewController.m in Sources */,
 				BD9AA50B2371D64500E8D4EF /* LSIPersonTableViewCell.m in Sources */,
 				BD9AA4F02371D53500E8D4EF /* main.m in Sources */,
